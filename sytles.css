@@ -207,18 +207,18 @@ span {
 }
 
 .text-animation {
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 600;
-  min-width: 300px;
   display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
+  min-width: 300px;
+  text-align: left;
 }
 
 .text-animation span {
   position: relative;
   display: inline-block;
   min-width: 300px;
+  text-align: left;
 }
 
 .text-animation span::before {
