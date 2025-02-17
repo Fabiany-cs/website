@@ -211,6 +211,8 @@ span {
   font-weight: 600;
   display: inline-block;
   min-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
   text-align: left;
 }
 
@@ -218,7 +220,6 @@ span {
   position: relative;
   display: inline-block;
   min-width: 300px;
-  text-align: left;
 }
 
 .text-animation span::before {
