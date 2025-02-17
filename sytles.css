@@ -209,7 +209,7 @@ span {
 .text-animation {
   font-size: 34px;
   font-weight: 600;
-  min-width: 280px;
+  min-width: 300px;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
@@ -218,6 +218,7 @@ span {
 .text-animation span {
   position: relative;
   display: inline-block;
+  min-width: 300px;
 }
 
 .text-animation span::before {
@@ -743,3 +744,5 @@ span {
     grid-template-columns: repeat(1,1fr);
   }
 }
+
+
