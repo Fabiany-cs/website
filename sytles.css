@@ -744,6 +744,12 @@ span {
   .services-container{
     grid-template-columns: repeat(1,1fr);
   }
+  .projects h2{
+    margin-bottom: 3rem;
+  }
+  .projects-container{
+    grid-template-columns: repeat(1,1fr);
+  }
 }
 
 
