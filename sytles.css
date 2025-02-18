@@ -213,12 +213,13 @@ span {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
+  width: 350px;
 }
 
 .text-animation span {
   position: relative;
   display: inline-block;
-  min-width: 300px;
+  width: 100%;
   text-align: left;
 }
 
@@ -409,6 +410,7 @@ span {
 .services {
   background-color: var(--bg-color);
   color: black;
+  margin: 0;
 }
 
 .services h2 {
@@ -437,6 +439,12 @@ span {
   color: black;
   border: 5px solid var(--main-color);
   transform: scale(1.03);
+}
+
+.service-info{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .service-info h4 {
@@ -658,7 +666,6 @@ span {
   .services-container{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2,1fr);
-    margin: 0 5rem;
   }
 }
 
