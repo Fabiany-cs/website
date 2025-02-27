@@ -290,6 +290,10 @@ span {
   }
 }
 
+
+
+
+
 .services {
   background-color: var(--bg-color);
   color: black;
@@ -343,6 +347,9 @@ span {
 }
 
 
+
+
+
 .products-section {
   text-align: center;
   margin-top: 4rem;
@@ -373,6 +380,17 @@ span {
 .products-container img:hover {
   transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -430,6 +448,7 @@ span {
 
 
 
+
 .github-link {
   padding: 1rem;
   background-color: var(--bg-color);
@@ -449,6 +468,8 @@ span {
 .github-group{
   margin-top: auto;
 }
+
+
 
 
 
@@ -565,6 +586,12 @@ span {
 }
 
 
+
+
+
+
+
+
 .contact {
   background-color: var(--bg-color);
 }
@@ -671,6 +698,12 @@ span {
   font-size: 16px;
   color: var(--text-color);
 }
+
+
+
+
+
+
 
 
 
