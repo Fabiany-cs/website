@@ -369,7 +369,7 @@ span {
 }
 
 .products-container img {
-  max-width: 10rem;
+  max-width: 20rem;
   height: auto;
   object-fit: contain; /* Ensures the image scales correctly */
   transition: transform 0.3s ease-in-out;
