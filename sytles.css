@@ -290,6 +290,168 @@ span {
   }
 }
 
+.services {
+  background-color: var(--bg-color);
+  color: black;
+  margin: 0;
+}
+
+.services h2 {
+  margin-bottom: 5rem;
+  color: white;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.service-box {
+  background-color: var(--main-color);
+  border-radius: 3rem;
+  border: 5px solid transparent;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  padding: 1rem;
+  text-align: center;
+}
+
+.service-box:hover {
+  background-color: white;
+  color: black;
+  border: 5px solid var(--main-color);
+  transform: scale(1.03);
+}
+
+.service-info{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-info h4 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  padding-bottom: 1rem;
+}
+
+.service-info p {
+  font-size: medium;
+}
+
+
+.products-section {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.products-container a {
+  display: flex; /* Ensures links behave like block elements */
+  justify-content: center; /* Centers the image inside */
+  align-items: center;
+}
+
+.products-container img {
+  max-width: 10rem;
+  height: auto;
+  object-fit: contain; /* Ensures the image scales correctly */
+  transition: transform 0.3s ease-in-out;
+  aspect-ratio: auto; /* Prevents forced stretching */
+  cursor: pointer; /* Adds cursor change on hover */
+}
+
+.products-container img:hover {
+  transform: scale(1.1);
+}
+
+
+
+.projects {
+  background-color: var(--bg-color);
+  color: black;
+}
+
+.projects h2 {
+  margin-bottom: 5rem;
+  color: white;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.project-box {
+  background-color: var(--main-color);
+  border-radius: 3rem;
+  border: 5px solid transparent;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  padding: 1rem;
+  text-align: center;
+}
+
+.project-box:hover {
+  background-color: white;
+  color: black;
+  border: 5px solid var(--main-color);
+  transform: scale(1.03);
+}
+
+.project-info{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-info h4 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  padding-bottom: 1rem;
+}
+
+.project-info p {
+  padding-bottom: 2rem;
+  font-size: medium;
+}
+
+
+
+.github-link {
+  padding: 1rem;
+  background-color: var(--bg-color);
+  border-radius: 4rem;
+  font-size: 1.5rem;
+  color: var(--main-color);
+  border: 2px solid transparent;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.github-link:hover {
+  transform: scale(1.1);
+}
+
+.github-group{
+  margin-top: auto;
+}
+
+
+
 .heading {
   font-size: 8rem;
   text-align: center;
@@ -403,153 +565,6 @@ span {
 }
 
 
-
-
-
-
-.services {
-  background-color: var(--bg-color);
-  color: black;
-  margin: 0;
-}
-
-.services h2 {
-  margin-bottom: 5rem;
-  color: white;
-}
-
-.services-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-}
-
-.service-box {
-  background-color: var(--main-color);
-  border-radius: 3rem;
-  border: 5px solid transparent;
-  cursor: pointer;
-  transition: 0.4s ease-in-out;
-  padding: 1rem;
-  text-align: center;
-}
-
-.service-box:hover {
-  background-color: white;
-  color: black;
-  border: 5px solid var(--main-color);
-  transform: scale(1.03);
-}
-
-.service-info{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.service-info h4 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 5px;
-  padding-bottom: 1rem;
-}
-
-.service-info p {
-  font-size: medium;
-}
-
-
-
-
-
-.projects {
-  background-color: var(--bg-color);
-  color: black;
-}
-
-.projects h2 {
-  margin-bottom: 5rem;
-  color: white;
-}
-
-.projects-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-}
-
-.project-box {
-  background-color: var(--main-color);
-  border-radius: 3rem;
-  border: 5px solid transparent;
-  cursor: pointer;
-  transition: 0.4s ease-in-out;
-  padding: 1rem;
-  text-align: center;
-}
-
-.project-box:hover {
-  background-color: white;
-  color: black;
-  border: 5px solid var(--main-color);
-  transform: scale(1.03);
-}
-
-.project-info{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.project-info h4 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 5px;
-  padding-bottom: 1rem;
-}
-
-.project-info p {
-  padding-bottom: 2rem;
-  font-size: medium;
-}
-
-
-
-
-.github-link {
-  padding: 1rem;
-  background-color: var(--bg-color);
-  border-radius: 4rem;
-  font-size: 1.5rem;
-  color: var(--main-color);
-  border: 2px solid transparent;
-  font-weight: 600;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.github-link:hover {
-  transform: scale(1.1);
-}
-
-.github-group{
-  margin-top: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact {
   background-color: var(--bg-color);
 }
@@ -656,12 +671,6 @@ span {
   font-size: 16px;
   color: var(--text-color);
 }
-
-
-
-
-
-
 
 
 
